@@ -79,7 +79,7 @@ public class RollTheDice {
 			System.out.println(katrori_i_shtepise2);
 			
 					
-		}else if(hedhja2 == 5 & rezultati1.contains(6)) {
+		}else if(hedhja2 == 5 & rezultati2.contains(6)) {
 				
 				String kulmi_i_shtepise2 = (
 					"\t  \b\b\b\b\b\b\b\b \b/\\\n\t\b\b\b\b\b\b\b/\t\b\b\b\b\\\n -----\n|     |\n|     |\n -----"
@@ -87,13 +87,13 @@ public class RollTheDice {
 				System.out.println(kulmi_i_shtepise2);
 		
 				 
-		}else if(hedhja2 == 4 & rezultati1.contains(6) & rezultati1.contains(5)){
+		}else if(hedhja2 == 4 & rezultati2.contains(6) & rezultati2.contains(5)){
 
 
 			String dera_e_shtepise2 = "\t  \b\b\b\b\b\b\b\b \b/\\\n\t\b\b\b\b\b\b\b/\t\b\b\b\b\\\n -----\n|  _  |\n| | | |\n -----";
 
 			System.out.println(dera_e_shtepise2);
-		}else if(hedhja2 == 3 & rezultati1.contains(4) & rezultati1.contains(5) & rezultati1.contains(6)){
+		}else if(hedhja2 == 3 & rezultati2.contains(4) & rezultati2.contains(5) & rezultati2.contains(6)){
 
 			String dritarja = ("\t  \b\b\b\b\b\b\b\b \b/\\\n\t\b\b\b\b\b\b\b/\t\b\b\b\b\\\n -----\n|  _  |\n|x| |x|\n -----");
 
@@ -101,7 +101,7 @@ public class RollTheDice {
 
 		}
 		else {
-			System.out.println("nuk ke hedhur ndonje numer fitoreje");
+		//	System.out.println("nuk ke hedhur ndonje numer fitoreje");
 		}
 		System.out.println("Hedhja e dyte: " + hedhja2);
 		Collections.sort(rezultati2);
